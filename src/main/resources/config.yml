@@ -1,0 +1,35 @@
+database:
+  host: 'localhost'
+  port: 3306
+  database: 'mydb'
+  user: 'root'
+  pass: ''
+
+Quests:
+  # name does not matter
+  # kill
+  # place-block
+  # break-block
+  # run-commands
+  # run-distance
+  1:
+    type: 'kill'
+    target: 100
+    reward-commands:
+      - 'eco give {player} 100000'
+  2:
+    type: 'place-block'
+    target: 100
+    reward-commands:
+      - 'eco give {player} 1000'
+  3:
+    type: 'run-commands'
+    target: 100
+    reward-commands:
+      - 'eco give {player} 10'
+
+  4:
+    type: 'run-distance'
+    target: 10000
+    reward-commands:
+      - 'eco give {player} 40000'

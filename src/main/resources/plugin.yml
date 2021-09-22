@@ -1,0 +1,9 @@
+name: QuestPlugin
+version: ${project.version}
+main: com.redspeaks.questplugin.QuestPlugin
+api-version: 1.17
+commands:
+  autoclaim:
+    description: auto claim command
+  claim:
+    description: claim command
